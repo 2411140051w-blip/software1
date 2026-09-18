@@ -1,0 +1,4 @@
+<% @bookmarks.each do |book| %>
+  <p><%= book.title %> <%= book.author %> <%= book.publish_year %></p>
+<% end %>
+<p><%= link_to '新規追加', '/bookmarks/new' %></p>

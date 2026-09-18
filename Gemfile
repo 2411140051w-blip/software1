@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem 'rails-i18n'
+
 gem "json", "< 3"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.1.3"
@@ -65,3 +67,4 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
